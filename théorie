@@ -1,0 +1,13 @@
+pour installer en premier package.json "npm init --y"
+pour installer express "npm install express --save"
+pour eviter de lancer le serveur à chaque changement ,
+on va installer nodemon global de preference avec la commande
+'npm install -g nodemon' , on peut utlisr la commande 'npm i -d nodemon' pour l'installer sur mon projet uniquement
+6 pour remplacer le commande nodemon seveur.js par npm run dev , je dois remplacer le dans package.js au niveau
+du script (tes par dev , la valeur par "nodemon serveur.js")
+è
+Je dois configurer mon port sur config.env
+pour acceder au config.env je dois installer dotenv "npm install dotenv"
+pour les dossiers ou fichier que je ne veux mettre sur git , il suffit de creer un fichier gitignore et mettre les noms des dossier dessus
+le midlware est fonction entre le request et reponse (demande et la reponse du serveur)
+pour connecter le projet à la base de données , on utilise mongoose
